@@ -34,6 +34,7 @@ gem 'slim'
 gem "slim-rails"
 
 gem 'devise'
+gem 'devise-ios-rails'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
