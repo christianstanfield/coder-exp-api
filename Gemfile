@@ -35,6 +35,7 @@ gem "slim-rails"
 
 gem 'devise'
 gem 'devise-ios-rails'
+gem 'active_model_serializers', '~> 0.9.3'
 
 gem 'rails_12factor', group: :production
 # gem 'puma'
