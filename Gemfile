@@ -30,16 +30,13 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'rails_12factor', group: :production
+
 gem 'slim'
 gem "slim-rails"
 
 gem 'devise'
 gem 'devise-ios-rails'
-gem 'active_model_serializers', '~> 0.9.3'
-
-gem 'rails_12factor', group: :production
-# gem 'puma'
-# gem "rack-timeout"
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
