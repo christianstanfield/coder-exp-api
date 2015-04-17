@@ -37,8 +37,8 @@ gem 'devise'
 gem 'devise-ios-rails'
 
 gem 'rails_12factor', group: :production
-gem 'puma'
-gem "rack-timeout"
+# gem 'puma'
+# gem "rack-timeout"
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'

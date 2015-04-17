@@ -83,5 +83,3 @@ production:
   database: coder_exp_api_production
   username: coder_exp_api
   password: <%= ENV['CODER_EXP_API_DATABASE_PASSWORD'] %>
-  url:  <%= ENV["DATABASE_URL"] %>
-  pool: <%= ENV["DB_POOL"] || ENV['MAX_THREADS'] || 5 %>
